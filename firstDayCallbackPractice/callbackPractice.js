@@ -38,14 +38,13 @@ first(names, function(firstName){
 
 
   //Code Here for last
-
+var last = function(arr, cb) {
+    cb(arr[arr.length - 1]);
+};
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 last(names, function(lastName){
   console.log('The last name in names is ', lastName);
 });
-
-
-
 
 
 /* NEXT PROBLEM ---- NEXT PROBLEM ---- NEXT PROBLEM ---- NEXT PROBLEM */
