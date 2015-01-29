@@ -3,3 +3,8 @@
 //Add a reverse method to the String 'class' so that every instance of String can call reverse and reverse itself.
   
   //code here
+String.prototype.reverseThisIsh = function() {
+  console.log(this.split('').reverse().join(''));  
+};
+var testString = "try this on for size";
+testString.reverseThisIsh();
